@@ -1,0 +1,2 @@
+The CASIA-FASD databases are consist of videos of 50 different people.
+To make databases for training the CNN, we must cut the frames of the videos.
