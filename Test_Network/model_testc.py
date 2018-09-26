@@ -8,24 +8,13 @@ Created on Thu May  3 15:42:21 2018
 import tensorflow as tf
 
 def _variable_on_cpu(name, shape, initializer):
-    '''
-    辅助函数:在CPU中创建Variable
-    :param name:变量名称
-    :param shape:形状
-    :param initializer:初始化
-    :return:
-        Variable Tensor
-    '''
+
     with tf.device('/cpu:0'):
         var = tf.get_variable(name, shape, initializer=initializer)
     return var
 
 def _variable_with_weight_decay(name, shape, stddev, wd):
-    '''
-    辅助函数:利用权重衰减初始化Variable
-    :return:
-        Variabel Tensor
-    '''
+  
     var = _variable_on_cpu(name, shape,
                            tf.contrib.layers.variance_scaling_initializer(
                                                    factor=1.0,
