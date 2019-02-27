@@ -29,3 +29,13 @@ CASIA-FASD datasets are consist of videos, each of which is made of 100 to 200 v
 
 #### Model C:
 ![](./images/.png) 
+
+
+## Test:
+#### Accuracy compared with the model in paper:
+![](./images/.png)
+
+#### Test Example:
+![](./images/.png)
+
+
