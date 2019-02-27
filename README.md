@@ -1,7 +1,7 @@
 # CNN-for-face-anti-spoofing
 
 ## Description
-This is my graduation project and it is based on " Deep Learning for Face Anti-Spoofing: An End-to-End Approach" published by Yasar Abbas Ur Rehamn, Lai Man Po and Mengyang Liu. Please check [paper](./paper)
+This is my graduation project and it is based on " Deep Learning for Face Anti-Spoofing: An End-to-End Approach" published by Yasar Abbas Ur Rehamn, Lai Man Po and Mengyang Liu. Please check [paper](https://ieeexplore.ieee.org/document/8166863)
 
 ## Configuration 
 Language: Python
